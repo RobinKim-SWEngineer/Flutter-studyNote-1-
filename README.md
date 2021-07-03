@@ -10,6 +10,6 @@ Widget, the rough equivalent to Android's View
 -	We need to work with the widget's `state` because they aren’t updated directly. In android, views are updated by just mutating them.
 
 -	Conceptually there are two widgets, which are `Stateful` and `Stateless`. Both rebuild every frame, but StatefulWidget can store and restore the state data through it’s `State object`
-    >> If the widget changes, then it is stateful. If not, for example, like ImageView or text, which doesn't change during the runtime is stateless.
+    >> If the widget changes, then it is stateful. If it doesn't change during the runtime ( Background image, App title text etc.), then it is stateless.
 
 - See attached file ‘Example_StatefulWidget’ to see how to change the text using `StatefulWidget` dynamically.
