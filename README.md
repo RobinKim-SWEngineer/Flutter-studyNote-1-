@@ -16,4 +16,4 @@ Widget, the rough equivalent to Android's View
 
 -   You will often author new widgets that are subclasses of either StatelessWidget or StatefulWidget.
 
--   See attached file ‘Example_StatefulWidget’ to see how to change the text using `StatefulWidget` dynamically.
+-   Attached file ‘Ex_StatefulWidget’ shows how to change the text using `StatefulWidget` dynamically.
