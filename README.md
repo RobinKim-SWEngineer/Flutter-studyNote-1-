@@ -7,6 +7,8 @@ Widget, the rough equivalent to Android's View
 -	They are not directly drawing anything ( Since they aren't views ) but rather *describing UI* with current configuration and state.
 
 -   A widget's main job is to implement a `build()` function and describe the widget.
+    
+    >> In Flutter, layout is written in a widget tree unlike Android, which is in XML.
 
 ## How to update it ?
 -	We need to work with the widget's `state` because they aren’t updated directly. In android, views are updated by just mutating them.
