@@ -17,6 +17,6 @@ Widget, the rough equivalent to Android's View
     >> If the widget changes, then it is stateful. If it doesn't alter during the runtime ( Background image, App title text etc.), then it is stateless.
 
 -   You will often author new widgets that are subclasses of either StatelessWidget or StatefulWidget.
-    >> We create generic widgets that **can be reused** and pass them as arguments to other widgets. ( Ex_StatelessWidget )
+    >> We create generic widgets that **can be reused** and pass them as arguments to other widgets. ( Like in the file 'Ex_StatelessWidget' )
 
 -   Attached file ‘Ex_StatefulWidget’ shows how to change the text using `StatefulWidget` dynamically.
