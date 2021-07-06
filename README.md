@@ -15,7 +15,8 @@ Widget, the rough equivalent to Android's View
  - Second, create visible widgets and add them to layout widget under child ( or children ) property.
    >> All layout widgets have either `child` or `children` property according to whether they take a single widget or list of widgets.
   
- - 
+ - Third, add the layout widget to the page. ( Instantiate the widget and return it in app's `build()` method )
+   >> Material app or non-material app, which one to use ?
 
 ## How to update it ?
 -	We need to work with the widget's `state` because they aren’t updated directly. In android, views are updated by just mutating them.
